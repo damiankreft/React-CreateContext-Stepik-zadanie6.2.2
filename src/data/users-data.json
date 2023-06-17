@@ -5,5 +5,12 @@
     "email": "2th@holycity.com",
     "firstname": "Juan",
     "lastname": "Pablo"
+  },
+  {
+    "id": "778bf365-dd4e-461c-b273-6dc45fa07d8c",
+    "name": "John",
+    "email": "john.paul@holycity.com",
+    "firstname": "John",
+    "lastname": "Paul"
   }
 ]
