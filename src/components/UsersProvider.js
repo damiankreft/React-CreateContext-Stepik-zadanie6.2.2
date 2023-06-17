@@ -3,7 +3,7 @@ import usersData from '../data/users-data.json';
 import { v4 } from 'uuid';
 
 const UsersContext = createContext();
-export const useUsers = () => useUsers(UsersContext);
+export const useUsers = () => useContext(UsersContext);
 
 export default function UsersProvider({ children }) {
   const [users, setUsers] = useState(usersData);
