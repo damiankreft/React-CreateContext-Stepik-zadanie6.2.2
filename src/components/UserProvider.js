@@ -7,7 +7,7 @@ const UserContext = createContext();
 export const useUsers = () => useContext(UserContext);
 
 export default function UserProvider({ children }) {
-  const [users, setUsers] = useState(usersData.users);
+  const [users, setUsers] = useState(usersData);
 
   const addUser = (name, firstname, lastname, email) => {
     const newUsers = [
