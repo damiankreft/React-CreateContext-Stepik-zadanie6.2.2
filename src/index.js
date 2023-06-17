@@ -2,10 +2,9 @@ import React, { createContext } from 'react';
 import ReactDOM from 'react-dom/client';
 import './style.css';
 import App from './App';
-import UsersProvider, { UsersContext } from './components/UsersProvider';
-import usersData from '../data/users-data.json';
+import UsersProvider from './components/UsersProvider';
 
-export const UsersContext = createContext(usersData);
+export const UsersContext = createContext();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

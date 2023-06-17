@@ -1,4 +1,5 @@
-import React, { createContext, useContext, useState } from 'react';
+import { createContext, useContext, useState } from 'react';
+import React from 'react';
 import usersData from '../data/users-data.json';
 import { v4 } from 'uuid';
 
