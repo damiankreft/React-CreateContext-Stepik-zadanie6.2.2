@@ -1,6 +1,6 @@
 import React from 'react';
 import FaTrash from 'react-icons/fa';
-import { useUsers } from './UsersProvider';
+import { useUsers } from './UserProvider';
 
 export default function Users({ id, name, email, firstname, lastname }) {
   const { removeUser } = useUsers();

@@ -3,11 +3,11 @@ import React from 'react';
 import usersData from '../data/users-data.json';
 import { v4 } from 'uuid';
 
-const UsersContext = createContext();
-export const useUsers = () => useContext(UsersContext);
+const UserContext = createContext();
+export const useUsers = () => useContext(UserContext);
 
-export default function UsersProvider({ children }) {
-  const [users, setUsers] = useState(usersData);
+export default function UserProvider({ children }) {
+  const [users, setUsers] = useState(usersData.users);
 
   const addUser = (name, firstname, lastname, email) => {
     const newUsers = [
@@ -28,8 +28,8 @@ export default function UsersProvider({ children }) {
   };
 
   return (
-    <UsersProvider.Provider value={{ users, addUser, removeUser }}>
+    <UserContext.Provider value={{ users, addUser, removeUser }}>
       {children}
-    </UsersProvider.Provider>
+    </UserContext.Provider>
   );
 }

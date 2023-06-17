@@ -1,6 +1,6 @@
 import React from 'react';
 import User from './User';
-import { useUsers } from './UsersProvider';
+import { useUsers } from './UserProvider.js';
 
 export default function UsersList() {
   const { users } = useUsers();
