@@ -5,10 +5,12 @@
   "dependencies": {
     "@types/react": "18.2.12",
     "@types/react-dom": "18.2.5",
+    "formik": "^2.4.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.9.0",
-    "uuid": "^9.0.0"
+    "uuid": "^9.0.0",
+    "yup": "^1.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

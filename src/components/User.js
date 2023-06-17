@@ -7,7 +7,7 @@ export default function User({ id, name, email, firstname, lastname }) {
 
   return (
     <div>
-      <h1 style={{ display: 'inline' }}>{name}</h1>{' '}
+      <h3 style={{ display: 'inline' }}>{name}</h3>{' '}
       <button style={{ display: 'inline' }} onClick={(x) => removeUser(id)}>
         <FaTrash />
       </button>

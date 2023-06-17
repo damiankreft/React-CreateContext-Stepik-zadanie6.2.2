@@ -1,16 +1,16 @@
 [
   {
     "id": "92151db1-f8d1-4a49-8697-1efed7cd4f21",
-    "name": "Juan",
+    "name": "JohnDoe22",
     "email": "2th@holycity.com",
-    "firstname": "Juan",
-    "lastname": "Pablo"
+    "firstname": "John",
+    "lastname": "Doe"
   },
   {
     "id": "778bf365-dd4e-461c-b273-6dc45fa07d8c",
-    "name": "John",
+    "name": "JanK",
     "email": "john.paul@holycity.com",
-    "firstname": "John",
-    "lastname": "Paul"
+    "firstname": "Jan",
+    "lastname": "Kowalski"
   }
 ]
